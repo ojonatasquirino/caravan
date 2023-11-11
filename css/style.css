@@ -1,4 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+  padding-top: 75px;
+  font-family: 'Inter';
+}
+
+/* sombreado no header */
 .box-shadow {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 2px 6px 0 rgba(0, 0, 0, 0.05);
 }
 
+#home-quote {
+  background:  url(../img/bg-quote.jpg) center center;
+  background-size: cover;
+}
+
+/* reponsivo customizado */
+
+@media (max-width: 767px) { 
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+
+  body {
+    padding: 0px; }
+
+    .fixed-top {
+      position: relative;
+    }
+  }
+  
