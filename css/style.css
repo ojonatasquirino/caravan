@@ -31,3 +31,22 @@ body {
     }
   }
   
+
+  /* estilização do local.html*/
+
+  .col-md img:hover { 
+    
+    transform: scale(1.05); 
+    transition: 0.5s ease-in-out;
+  }
+
+    /* estilização do plano.html*/
+
+    .lista-plano li + li {
+      border-top: 1px solid rgba(0, 0, 0, 0.093);
+    }
+
+      .lista-plano li {
+        padding: 1rem;
+
+      }
