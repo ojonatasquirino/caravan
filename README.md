@@ -1,6 +1,4 @@
 <h1 align='center'>caravan </h1> 
-
-### 🔗 Layout em processo de codificação.
 ##
 Esse projeto é um web site feito quase que inteiramente com Bootstrap em sua estilização. O Bootstrap é framework extensível e repleto de recursos para desenvolvimento web. Além disso, SASS (pré processador CSS) também foi utilizado no projeto. 
 ## ⚙️ Ambiente de codificação e ferramentas 
