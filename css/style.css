@@ -1,52 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+:root {
+  --gradient: linear-gradient(to right, #ff5700,  #ff7936, rgb(252, 191, 92),rgb(255, 207, 131));
+}
 
 body {
-  padding-top: 75px;
-  font-family: 'Inter';
+  padding-top: 50px;
+  font-family: "Poppins", serif;
 }
 
 /* sombreado no header */
 .box-shadow {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 2px 6px 0 rgba(0, 0, 0, 0.206);
+}
+
+.btn-degrade {
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 #home-quote {
-  background:  url(../img/bg-quote.jpg) center center;
+  background: url(../img/bg-quote.jpg) center center;
   background-size: cover;
+}
+
+h1,
+h2 {
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 /* reponsivo customizado */
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
   #home-quote .display-4 {
     font-size: 2.5rem;
   }
 
   body {
-    padding: 0px; }
-
-    .fixed-top {
-      position: relative;
-    }
+    padding: 0px;
   }
-  
-
-  /* estilização do local.html*/
-
-  .col-md img:hover { 
-    
-    transform: scale(1.05); 
-    transition: 0.5s ease-in-out;
+  .fixed-top {
+    position: relative;
   }
+}
+/* estilização do plano.html*/
 
-    /* estilização do plano.html*/
-
-    .lista-plano li + li {
-      border-top: 1px solid rgba(0, 0, 0, 0.093);
-    }
-
-      .lista-plano li {
-        padding: 1rem;
-
-      }
+.lista-plano li + li {
+  border-top: 1px solid rgba(0, 0, 0, 0.093);
+}
+.lista-plano li {
+  padding: 1rem;
+}

@@ -1,0 +1,41 @@
+/*variavéis de cores do site 
+ */
+
+$theme-colors: (
+  "primary": #f3572b,
+  "secondary": #000000,
+  "danger": rgba(0, 0, 0, 0.893),
+);
+
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial;
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "nav";
+@import "navbar";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
