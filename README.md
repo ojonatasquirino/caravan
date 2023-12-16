@@ -3,7 +3,7 @@
 
 #
 
-
+ 
 Esse projeto é um web site feito quase que inteiramente com Bootstrap em sua estilização. O Bootstrap é framework extensível e repleto de recursos para desenvolvimento web. Além disso, SASS (pré processador CSS) também foi utilizado no projeto.
 
 ## ambiente de codificação e ferramentas 
